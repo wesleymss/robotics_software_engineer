@@ -23,4 +23,16 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
+
+
+
 ament_package()
+
+
+add_executable(task1_sr      src/task_1.cpp)
+ament_target_dependencies (task1_sr)
+
+install(TARGETS
+task1_sr
+DESTINATION lib/${PROJECT_NAME}
+)

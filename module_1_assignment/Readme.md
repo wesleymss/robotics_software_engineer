@@ -1,4 +1,31 @@
-# Assignments for Module #1 : C++ from Robotics Prespective
+# Assignments for Module #1 : C++ from Robotics Perspective
+
+### Tasks 1:
+Create a C++ program that represents a robot equipped with temperature and distance sensors.
+Use hardcoded values to simulate sensor readings (e.g., temperature fluctuations, distance to objects).
+Print these values to the console with appropriate descriptions (e.g., "Temperature: 20°C", "Distance: 100cm").
+
+### How to run task1 :
+- Perform the following
+`````````  
+colcon build
+``````````````
+
+-  Source your Workspace
+``````````
+source install/setup.bash
+```````````
+
+
+- Run with this command
+
+````````
+ros2 run module_1_assignment task1_sr
+
+``````````
+
+
+
 - Create all files in *module_1_assignment* package
 ### Assignment 1: Simulating Sensors with Hardcoded Values
 - **Objective**: Learn how to simulate sensor data using hardcoded values in C++.
