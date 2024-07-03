@@ -32,7 +32,10 @@ ament_package()
 add_executable(task1_sr      src/task_1.cpp)
 ament_target_dependencies (task1_sr)
 
+add_executable(task2_sr      src/task_2.cpp)
+ament_target_dependencies (task2_sr)
+
 install(TARGETS
-task1_sr
+task1_sr task2_sr
 DESTINATION lib/${PROJECT_NAME}
 )

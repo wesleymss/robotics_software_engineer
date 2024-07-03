@@ -24,19 +24,8 @@ ros2 run module_1_assignment task1_sr
 
 ``````````
 
+### Tasks 2:
 
-
-- Create all files in *module_1_assignment* package
-### Assignment 1: Simulating Sensors with Hardcoded Values
-- **Objective**: Learn how to simulate sensor data using hardcoded values in C++.
-- **Tasks**:
-Create a C++ program that represents a robot equipped with temperature and distance sensors.
-Use hardcoded values to simulate sensor readings (e.g., temperature fluctuations, distance to objects).
-Print these values to the console with appropriate descriptions (e.g., "Temperature: 20°C", "Distance: 100cm").
-- **Learning Outcome**: Apply C++ syntax to simulate basic robotics concepts.
-### Assignment 2: Introduction to Object-Oriented Programming (OOP)
-- **Objective**: Introduce basic OOP concepts using C++ within a robotics context.
-- **Tasks**:
 Define a Robot class with attributes
     - name
     - speed
@@ -48,7 +37,28 @@ Methods for moving
 Instantiate a Robot object and simulate actions by invoking its methods.
 Utilize namespaces for defining different robots.
 Output each action to the console to show the robot's behavior.
-- **Learning Outcome**: Grasp OOP principles and their application in robotics software development.
+
+### How to run task2 :
+- Perform the following
+`````````  
+colcon build
+``````````````
+
+-  Source your Workspace
+``````````
+source install/setup.bash
+```````````
+
+
+- Run with this command
+
+````````
+ros2 run module_1_assignment task2_sr
+
+``````````
+
+
+### Tasks 3:
 
 ### Assignment 3: Creating Custom Libraries for Robotics Components
 - **Objective**: Learn how to create and use custom C++ libraries for reusable robotics components.
