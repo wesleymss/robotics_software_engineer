@@ -28,6 +28,7 @@ endif()
 
 ament_package()
 
+include_directories(include)
 
 add_executable(task1_sr      src/task_1.cpp)
 ament_target_dependencies (task1_sr)
@@ -35,7 +36,10 @@ ament_target_dependencies (task1_sr)
 add_executable(task2_sr      src/task_2.cpp)
 ament_target_dependencies (task2_sr)
 
+add_executable(task3_sr      src/task_3_main.cpp src/task_3.cpp)
+ament_target_dependencies (task3_sr)
+
 install(TARGETS
-task1_sr task2_sr
+task1_sr task2_sr task3_sr
 DESTINATION lib/${PROJECT_NAME}
 )

@@ -60,9 +60,6 @@ ros2 run module_1_assignment task2_sr
 
 ### Tasks 3:
 
-### Assignment 3: Creating Custom Libraries for Robotics Components
-- **Objective**: Learn how to create and use custom C++ libraries for reusable robotics components.
-- **Tasks**:
 Design a simple sensor library that includes classes for different types of sensors
     - TemperatureSensor
     - DistanceSensor
@@ -73,4 +70,22 @@ Ensure proper documentation and use CMakeLists for building the project.
     - Double data
     - String Data
     - Character data
-- **Learning Outcome**: Understand how to organize code into reusable libraries and compile them using CMake.
+
+### How to run task3 :
+- Perform the following
+`````````  
+colcon build
+``````````````
+
+-  Source your Workspace
+``````````
+source install/setup.bash
+```````````
+
+
+- Run with this command
+
+````````
+ros2 run module_1_assignment task3_sr
+``````````````
+THANK YOU
