@@ -1,0 +1,105 @@
+[0.000000] (-) TimerEvent: {}
+[0.000683] (drive_mobile_robot_as2) JobQueued: {'identifier': 'drive_mobile_robot_as2', 'dependencies': OrderedDict()}
+[0.000782] (drive_mobile_robot_as2) JobStarted: {'identifier': 'drive_mobile_robot_as2'}
+[0.004908] (drive_mobile_robot_as2) JobProgress: {'identifier': 'drive_mobile_robot_as2', 'progress': 'cmake'}
+[0.005925] (drive_mobile_robot_as2) JobProgress: {'identifier': 'drive_mobile_robot_as2', 'progress': 'build'}
+[0.006518] (drive_mobile_robot_as2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2', '--', '-j2', '-l2'], 'cwd': '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'parallels'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/parallels'), ('OLDPWD', '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '2036'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install:/home/parallels/workspaces/mydemo_ws/install:/home/parallels/workspaces/cppbasics_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'parallels'), ('_', '/home/parallels/.local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'parallels'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/parallels/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/ubuntu-linux-22-04-02-desktop:@/tmp/.ICE-unix/2010,unix/ubuntu-linux-22-04-02-desktop:/tmp/.ICE-unix/2010'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/23024bd8_8847_4c53_9b30_b9df795bd23f'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.A831S2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.281'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_fake_node:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_example:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_description:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_cartographer:/home/parallels/workspaces/mydemo_ws/install/drive_mobile_robot_demos:/home/parallels/workspaces/cppbasics_ws/src/install/drive_mobile_robot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/parallels/workspaces/mydemo_ws/build/turtlebot3_example:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_example/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_fake_node:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_description:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_cartographer:/home/parallels/workspaces/mydemo_ws/install/drive_mobile_robot_demos:/home/parallels/workspaces/cppbasics_ws/src/install/drive_mobile_robot:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.021177] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.091037] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.099922] (-) TimerEvent: {}
+[0.111808] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.112713] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.116797] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.122936] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.131358] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.152720] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.153600] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.200170] (-) TimerEvent: {}
+[0.229501] (drive_mobile_robot_as2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.263312] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.274725] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.300254] (-) TimerEvent: {}
+[0.317070] (drive_mobile_robot_as2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.317521] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.317852] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.318332] (drive_mobile_robot_as2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.320308] (drive_mobile_robot_as2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.321383] (drive_mobile_robot_as2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.328905] (drive_mobile_robot_as2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.329278] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.330015] (drive_mobile_robot_as2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.332468] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.345386] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Generating done\n'}
+[0.346875] (drive_mobile_robot_as2) StdoutLine: {'line': b'-- Build files have been written to: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2\n'}
+[0.359956] (drive_mobile_robot_as2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target follow_circle\x1b[0m\n'}
+[0.360338] (drive_mobile_robot_as2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target logarithmic_spiral\x1b[0m\n'}
+[0.369424] (drive_mobile_robot_as2) StdoutLine: {'line': b'[ 20%] Built target logarithmic_spiral\n'}
+[0.372338] (drive_mobile_robot_as2) StdoutLine: {'line': b'[ 40%] Built target follow_circle\n'}
+[0.375308] (drive_mobile_robot_as2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target spawn_five_turtle\x1b[0m\n'}
+[0.377587] (drive_mobile_robot_as2) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rotate\x1b[0m\n'}
+[0.387333] (drive_mobile_robot_as2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/rotate.dir/src/rotate.cpp.o\x1b[0m\n'}
+[0.391037] (drive_mobile_robot_as2) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/spawn_five_turtle.dir/src/spawn_five_turtle.cpp.o\x1b[0m\n'}
+[0.400340] (-) TimerEvent: {}
+[0.506838] (-) TimerEvent: {}
+[0.610829] (-) TimerEvent: {}
+[0.717758] (-) TimerEvent: {}
+[0.818058] (-) TimerEvent: {}
+[0.918374] (-) TimerEvent: {}
+[1.018803] (-) TimerEvent: {}
+[1.119244] (-) TimerEvent: {}
+[1.219656] (-) TimerEvent: {}
+[1.320086] (-) TimerEvent: {}
+[1.420609] (-) TimerEvent: {}
+[1.523331] (-) TimerEvent: {}
+[1.623734] (-) TimerEvent: {}
+[1.725759] (-) TimerEvent: {}
+[1.826105] (-) TimerEvent: {}
+[1.926520] (-) TimerEvent: {}
+[1.983328] (drive_mobile_robot_as2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/drive_mobile_robot_as2/src/rotate.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRotateNode::RotateNode()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.983865] (drive_mobile_robot_as2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/drive_mobile_robot_as2/src/rotate.cpp:26:41:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KRotateNode::create_wall_timer(std::chrono::milliseconds, std::_Bind_helper<false, void (RotateNode::*)(double), RotateNode*, double&>::type)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.984213] (drive_mobile_robot_as2) StderrLine: {'line': b'   26 |         timer_ = \x1b[01;31m\x1b[Kthis->create_wall_timer(\x1b[m\x1b[K\n'}
+[1.984559] (drive_mobile_robot_as2) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~^\x1b[m\x1b[K\n'}
+[1.984909] (drive_mobile_robot_as2) StderrLine: {'line': b'   27 | \x1b[01;31m\x1b[K            500ms, std::bind(&RotateNode::timer_callback, this, speed))\x1b[m\x1b[K;\n'}
+[1.985268] (drive_mobile_robot_as2) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.985619] (drive_mobile_robot_as2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.985961] (drive_mobile_robot_as2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.986290] (drive_mobile_robot_as2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.986610] (drive_mobile_robot_as2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/drive_mobile_robot_as2/src/rotate.cpp:6\x1b[m\x1b[K:\n'}
+[1.986956] (drive_mobile_robot_as2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.987282] (drive_mobile_robot_as2) StderrLine: {'line': b'  238 |   \x1b[01;36m\x1b[Kcreate_wall_timer\x1b[m\x1b[K(\n'}
+[1.987600] (drive_mobile_robot_as2) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.987924] (drive_mobile_robot_as2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:238:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[1.988244] (drive_mobile_robot_as2) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[1.988562] (drive_mobile_robot_as2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[1.988881] (drive_mobile_robot_as2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[1.989201] (drive_mobile_robot_as2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[1.989518] (drive_mobile_robot_as2) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/drive_mobile_robot_as2/src/rotate.cpp:6\x1b[m\x1b[K:\n'}
+[1.989836] (drive_mobile_robot_as2) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class DurationRepT, class DurationT, class CallbackT> typename rclcpp::WallTimer<CallbackT>::SharedPtr rclcpp::Node::create_wall_timer(std::chrono::duration<_Rep1, _Period1>, CallbackT, rclcpp::CallbackGroup::SharedPtr) [with DurationRepT = long int; DurationT = std::ratio<1, 1000>; CallbackT = std::_Bind<void (RotateNode::*(RotateNode*, double))(double)>]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.989868] (drive_mobile_robot_as2) StderrLine: {'line': b'\x1b[01m\x1b[K/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/drive_mobile_robot_as2/src/rotate.cpp:26:41:\x1b[m\x1b[K   required from here\n'}
+[1.989895] (drive_mobile_robot_as2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.989927] (drive_mobile_robot_as2) StderrLine: {'line': b'  110 | \x1b[01;31m\x1b[KNode\x1b[m\x1b[K::create_wall_timer(\n'}
+[1.989954] (drive_mobile_robot_as2) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[1.989980] (drive_mobile_robot_as2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, void>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.990007] (drive_mobile_robot_as2) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:110:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kinvalid template non-type parameter\n'}
+[2.026623] (-) TimerEvent: {}
+[2.126985] (-) TimerEvent: {}
+[2.227351] (-) TimerEvent: {}
+[2.329077] (-) TimerEvent: {}
+[2.429570] (-) TimerEvent: {}
+[2.504355] (drive_mobile_robot_as2) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/rotate.dir/build.make:76: CMakeFiles/rotate.dir/src/rotate.cpp.o] Error 1\n'}
+[2.504875] (drive_mobile_robot_as2) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:223: CMakeFiles/rotate.dir/all] Error 2\n'}
+[2.505199] (drive_mobile_robot_as2) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.530139] (-) TimerEvent: {}
+[2.630426] (-) TimerEvent: {}
+[2.730796] (-) TimerEvent: {}
+[2.830988] (-) TimerEvent: {}
+[2.931245] (-) TimerEvent: {}
+[3.031665] (-) TimerEvent: {}
+[3.097800] (drive_mobile_robot_as2) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable spawn_five_turtle\x1b[0m\n'}
+[3.131984] (-) TimerEvent: {}
+[3.231240] (drive_mobile_robot_as2) StdoutLine: {'line': b'[ 70%] Built target spawn_five_turtle\n'}
+[3.231694] (drive_mobile_robot_as2) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.232109] (-) TimerEvent: {}
+[3.233609] (drive_mobile_robot_as2) CommandEnded: {'returncode': 2}
+[3.259387] (drive_mobile_robot_as2) JobEnded: {'identifier': 'drive_mobile_robot_as2', 'rc': 2}
+[3.269684] (-) EventReactorShutdown: {}

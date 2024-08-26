@@ -1,0 +1,43 @@
+[0.003s] Invoking command in '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2 -- -j2 -l2
+[0.065s] [ 20%] Built target follow_circle
+[0.065s] [ 40%] Built target logarithmic_spiral
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target rotate[0m
+[0.091s] [ 60%] Built target spawn_five_turtle
+[0.096s] [ 70%] [32mBuilding CXX object CMakeFiles/rotate.dir/src/rotate.cpp.o[0m
+[0.114s] [ 80%] [32mBuilding CXX object CMakeFiles/speed_turtle.dir/src/speed_turtle.cpp.o[0m
+[2.610s] [ 90%] [32m[1mLinking CXX executable rotate[0m
+[2.765s] [ 90%] Built target rotate
+[2.879s] [100%] [32m[1mLinking CXX executable speed_turtle[0m
+[2.992s] [100%] Built target speed_turtle
+[2.999s] Invoked command in '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2 -- -j2 -l2
+[3.018s] Invoking command in '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2
+[3.022s] -- Install configuration: ""
+[3.023s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/lib/drive_mobile_robot_as2/follow_circle
+[3.024s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/lib/drive_mobile_robot_as2/logarithmic_spiral
+[3.024s] -- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/lib/drive_mobile_robot_as2/spawn_five_turtle
+[3.026s] -- Set runtime path of "/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/lib/drive_mobile_robot_as2/spawn_five_turtle" to ""
+[3.027s] -- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/lib/drive_mobile_robot_as2/rotate
+[3.028s] -- Set runtime path of "/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/lib/drive_mobile_robot_as2/rotate" to ""
+[3.028s] -- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/lib/drive_mobile_robot_as2/speed_turtle
+[3.028s] -- Set runtime path of "/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/lib/drive_mobile_robot_as2/speed_turtle" to ""
+[3.029s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/launch
+[3.029s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/launch/follow_circle.launch.py
+[3.029s] -- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/launch/diagonal_speed.launch.py
+[3.029s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/launch/logarithmic_spiral.launch.py
+[3.029s] -- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/launch/spawn_diagonal.launch.py
+[3.029s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/ament_index/resource_index/package_run_dependencies/drive_mobile_robot_as2
+[3.029s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/ament_index/resource_index/parent_prefix_path/drive_mobile_robot_as2
+[3.029s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/environment/ament_prefix_path.sh
+[3.030s] -- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/environment/ament_prefix_path.dsv
+[3.030s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/environment/path.sh
+[3.030s] -- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/environment/path.dsv
+[3.030s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/local_setup.bash
+[3.030s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/local_setup.sh
+[3.030s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/local_setup.zsh
+[3.030s] -- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/local_setup.dsv
+[3.031s] -- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/package.dsv
+[3.031s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/ament_index/resource_index/packages/drive_mobile_robot_as2
+[3.031s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/cmake/drive_mobile_robot_as2Config.cmake
+[3.031s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/cmake/drive_mobile_robot_as2Config-version.cmake
+[3.031s] -- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/package.xml
+[3.034s] Invoked command in '/home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/parallels/workspaces/mydemo_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/build/drive_mobile_robot_as2

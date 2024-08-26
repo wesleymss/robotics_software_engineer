@@ -1,0 +1,24 @@
+[ 50%] Built target follow_circle
+[100%] Built target logarithmic_spiral
+-- Install configuration: ""
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/lib/drive_mobile_robot_as2/follow_circle
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/lib/drive_mobile_robot_as2/logarithmic_spiral
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/launch
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/launch/follow_circle.launch.py
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/launch/logarithmic_spiral.launch.py
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/launch/spawn_diagonal.launch.py
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/ament_index/resource_index/package_run_dependencies/drive_mobile_robot_as2
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/ament_index/resource_index/parent_prefix_path/drive_mobile_robot_as2
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/environment/ament_prefix_path.sh
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/environment/path.sh
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/environment/path.dsv
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/local_setup.bash
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/local_setup.sh
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/local_setup.zsh
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/local_setup.dsv
+-- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/package.dsv
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/ament_index/resource_index/packages/drive_mobile_robot_as2
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/cmake/drive_mobile_robot_as2Config.cmake
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/cmake/drive_mobile_robot_as2Config-version.cmake
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/src/install/drive_mobile_robot_as2/share/drive_mobile_robot_as2/package.xml
