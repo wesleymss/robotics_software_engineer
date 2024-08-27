@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target follow_circle[0m
+[35m[1mConsolidate compiler generated dependencies of target logarithmic_spiral[0m
+[ 20%] Built target logarithmic_spiral
+[ 40%] Built target follow_circle
+[35m[1mConsolidate compiler generated dependencies of target spawn_five_turtle[0m
+[35m[1mConsolidate compiler generated dependencies of target rotate[0m
+[ 60%] Built target spawn_five_turtle
+[35m[1mConsolidate compiler generated dependencies of target speed_turtle[0m
+[ 90%] Built target rotate
+[100%] Built target speed_turtle
+-- Install configuration: ""
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/lib/module_2_assignment/follow_circle
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/lib/module_2_assignment/logarithmic_spiral
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/lib/module_2_assignment/spawn_five_turtle
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/lib/module_2_assignment/rotate
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/lib/module_2_assignment/speed_turtle
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/launch
+-- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/launch/follow_circle.launch.py
+-- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/launch/diagonal_speed.launch.py
+-- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/launch/logarithmic_spiral.launch.py
+-- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/launch/spawn_diagonal.launch.py
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/ament_index/resource_index/package_run_dependencies/module_2_assignment
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/ament_index/resource_index/parent_prefix_path/module_2_assignment
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/environment/ament_prefix_path.sh
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/environment/path.sh
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/environment/path.dsv
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/local_setup.bash
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/local_setup.sh
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/local_setup.zsh
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/local_setup.dsv
+-- Installing: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/package.dsv
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/ament_index/resource_index/packages/module_2_assignment
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/cmake/module_2_assignmentConfig.cmake
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/cmake/module_2_assignmentConfig-version.cmake
+-- Up-to-date: /home/parallels/workspaces/assignment_ws/src/robotics_software_engineer/module_2_assignment/install/module_2_assignment/share/module_2_assignment/package.xml

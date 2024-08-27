@@ -5,21 +5,35 @@ if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
-# find dependencies
+
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(geometry_msgs REQUIRED)
-# uncomment the following section in order to fill in
-# further dependencies manually.
-# find_package(<dependency> REQUIRED)
 
-add_executable(ass2_turtle src/follow_circle.cpp)
-ament_target_dependencies(ass2_turtle rclcpp geometry_msgs)
+
+
+add_executable(follow_circle src/follow_circle.cpp)
+ament_target_dependencies(follow_circle rclcpp geometry_msgs)
+
+add_executable(logarithmic_spiral src/logarithmic_spiral.cpp)
+ament_target_dependencies(logarithmic_spiral rclcpp geometry_msgs)
+
+add_executable(spawn_five_turtle src/spawn_five_turtle.cpp)
+ament_target_dependencies(spawn_five_turtle rclcpp geometry_msgs)
+
+add_executable(rotate src/rotate.cpp)
+ament_target_dependencies(rotate rclcpp geometry_msgs)
+
+add_executable(speed_turtle src/speed_turtle.cpp)
+ament_target_dependencies(speed_turtle rclcpp geometry_msgs)
 
 install(TARGETS
-  ass2_turtle
+  follow_circle logarithmic_spiral spawn_five_turtle rotate speed_turtle
   DESTINATION lib/${PROJECT_NAME})
+
+install(DIRECTORY launch
+  DESTINATION share/${PROJECT_NAME})
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

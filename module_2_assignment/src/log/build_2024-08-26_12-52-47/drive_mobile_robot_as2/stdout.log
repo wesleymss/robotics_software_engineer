@@ -1,5 +1,0 @@
-[ 25%] Built target logarithmic_spiral
-[ 50%] Built target follow_circle
-[35m[1mConsolidate compiler generated dependencies of target rotate[0m
-[ 75%] Built target spawn_five_turtle
-[ 87%] [32mBuilding CXX object CMakeFiles/rotate.dir/src/rotate.cpp.o[0m

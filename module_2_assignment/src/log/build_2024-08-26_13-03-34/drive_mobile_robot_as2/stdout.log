@@ -1,9 +1,0 @@
-[ 20%] Built target logarithmic_spiral
-[ 40%] Built target follow_circle
-[ 60%] Built target spawn_five_turtle
-[35m[1mConsolidate compiler generated dependencies of target rotate[0m
-[35m[1mConsolidate compiler generated dependencies of target speed_turtle[0m
-[ 70%] [32mBuilding CXX object CMakeFiles/speed_turtle.dir/src/speed_turtle.cpp.o[0m
-[ 80%] [32mBuilding CXX object CMakeFiles/rotate.dir/src/rotate.cpp.o[0m
-[ 90%] [32m[1mLinking CXX executable speed_turtle[0m
-[ 90%] Built target speed_turtle

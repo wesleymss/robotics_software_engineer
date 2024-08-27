@@ -24,11 +24,11 @@ ros2 run turtlesim turtlesim_node
 ```
 - open another terminal and run with this command (circle movement)
 ```
-ros2 run drive_mobile_robot_as2 follow_circle
+ros2 run module_2_assignment follow_circle
 ```
 -   for logarithmic spiral movement
 ```
-ros2 run drive_mobile_robot_as2 logarithmic_spiral 
+ros2 run module_2_assignment logarithmic_spiral 
 ```
 
 ## Task 2: Develop a Launch File
@@ -52,11 +52,11 @@ source install/setup.bash
 - Run with this command
 
 ```
-ros2 launch drive_mobile_robot_as2 follow_circle.launch.py
+ros2 launch module_2_assignment follow_circle.launch.py
 ```
 - logarithmic spiral use 
 ```
-ros2 launch drive_mobile_robot_as2 logarithmic_spiral.launch.py
+ros2 launch module_2_assignment logarithmic_spiral.launch.py
 ```
 
 #### Note:
@@ -82,7 +82,7 @@ source install/setup.bash
 - Run with this command
 
 ```
-ros2 launch drive_mobile_robot_as2 spawn_diagonal.launch.py
+ros2 launch module_2_assignment spawn_diagonal.launch.py
 ```
 
 ## Task 4: Modify Turtle Behavior with Parameters
@@ -101,7 +101,7 @@ source install/setup.bash
 - Run with this command
 
 ```
-ros2 launch drive_mobile_robot_as2 diagonal_speed.launch.py
+ros2 launch module_2_assignment diagonal_speed.launch.py
 ````
 
 #### Thank you
