@@ -25,6 +25,8 @@ ros2 launch module_3_assignment task1_rviz.launch.py
 - Rviz will be launched 
 - Choose base_link as fixed frame
 - Add tf for viewing the transformation tree for the robotic arm.
+
+![Screenshot description](/module_3_assignment/task1.png)
 ------------------------------------------------------------------------------------------
 ### Assignment 2: Joints Understanding
 - **Tasks**:
@@ -55,6 +57,7 @@ ros2 launch module_3_assignment task2_rviz.launch.py
     - under Description Topic, choose /robot_description
 - Add tf for viewing the transformation tree for the robotic arm.
 
+![Screenshot description](/module_3_assignment/task2.png)
 -----------------------------------------------------------------------------------------
 
 ### Assignment 3: Building Mobile Manipulator
