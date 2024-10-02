@@ -77,7 +77,7 @@ source install/setup.bash
 ros2 launch module_3_assignment task3_rviz.launch.py
 ````
 
-![Screenshot description](module_3_assignment/ackermann arm.png)
+![Screenshot description](module_3_assignment/ackermannarm.png)
 
 - Rviz will be launched 
 - Choose base_link as fixed frame
