@@ -57,7 +57,7 @@ ros2 launch module_3_assignment task2_rviz.launch.py
 
 -----------------------------------------------------------------------------------------
 
-### Assignment 3: Building Mobile Manupilator
+### Assignment 3: Building Mobile Manipulator
 - **Tasks**:
 Put your robotic arm on top of different drive robot
     - Connect using base_link of diff bot.
@@ -77,7 +77,7 @@ source install/setup.bash
 ros2 launch module_3_assignment task3_rviz.launch.py
 ````
 
-![Screenshot description](module_3_assignment/ackermannarm.png)
+![Screenshot description](/module_3_assignment/ackermannarm.png)
 
 - Rviz will be launched 
 - Choose base_link as fixed frame
